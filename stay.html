@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Stay — FakeRoads Tours</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+<nav class="navbar">
+  <div class="nav-center">
+    <div class="nav-header">
+      <a href="index.html" class="nav-logo">FakeRoads Tours</a>
+      <button class="nav-toggle" id="nav-toggle"><i>&#9776;</i></button>
+    </div>
+    <ul class="nav-links" id="nav-links"><li><a href="index.html" class="nav-link">Home</a></li>
+<li><a href="stay.html" class="nav-link" style="color:var(--clr-primary-8);font-weight:700;">Stay</a></li>
+<li><a href="plan.html" class="nav-link">Plan</a></li>
+<li><a href="dining.html" class="nav-link">Dining</a></li>
+<li><a href="book-now.html" class="nav-link">Book Now</a></li>
+<li><a href="about-us.html" class="nav-link">About Us</a></li>
+</ul>
+    <div class="nav-icons">
+      <a href="#" class="nav-icon" title="Facebook">f</a>
+      <a href="#" class="nav-icon" title="Instagram">&#9825;</a>
+      <a href="#" class="nav-icon" title="Twitter">t</a>
+    </div>
+  </div>
+</nav>
+
+
+<header class="page-hero">
+  <div class="page-hero-banner">
+    <h1>Find Your Stay</h1>
+    <p>Choose from our handpicked resorts, hotels, B&Bs and hostels.</p>
+  </div>
+</header>
+<div class="breadcrumb"><div class="section-center"><a href="index.html">Home</a><span style="color:#aaa;"> › </span><span>Stay</span></div></div>
+
+<section class="section">
+  <div class="section-center">
+    <div class="booking-strip">
+      <h3>Search Availability</h3>
+      <div class="booking-fields">
+        <div class="booking-field"><label>Check-in</label><input type="text" placeholder="DD / MM / YYYY"></div>
+        <div class="booking-field"><label>Check-out</label><input type="text" placeholder="DD / MM / YYYY"></div>
+        <div class="booking-field"><label>Guests</label><input type="text" placeholder="X Adults · X Children"></div>
+        <div class="booking-field"><label>Budget</label><select><option>All Budgets</option><option>$ Budget</option><option>$$ Mid-range</option><option>$$$ Luxury</option></select></div>
+        <a href="book-lodging.html" class="btn" style="align-self:flex-end;">Search</a>
+      </div>
+    </div>
+
+    <div class="section-title"><h2>Choose Your <span>Accommodation</span></h2></div>
+    <div class="filter-bar">
+      <span class="filter-label">Filter:</span>
+      <button class="filter-btn active">All</button>
+      <button class="filter-btn">Budget</button>
+      <button class="filter-btn">Mid-range</button>
+      <button class="filter-btn">Luxury</button>
+      <button class="filter-btn">1 Guest</button>
+      <button class="filter-btn">2+ Guests</button>
+    </div>
+    <div class="accom-grid">
+      <div class="accom-card">
+        <img src="./images/31.jpg" alt="Resort" class="accom-img">
+        <div class="accom-body">
+          <h3>Resort</h3>
+          <p class="accom-price">From $XXX / night</p>
+          <div class="accom-tags"><span class="accom-tag">Pool</span><span class="accom-tag">Spa</span><span class="accom-tag">Restaurant</span><span class="accom-tag">Luxury</span></div>
+          <p>Taniti's premier beachfront resort sits right on a white sand bay. Enjoy ocean-view rooms, a full-service spa, two restaurants, and direct access to some of the island's clearest snorkelling waters.</p>
+          <a href="resort.html" class="btn">View Resort</a>
+          <p class="click-hint">↗ Click to explore</p>
+        </div>
+      </div>
+      <div class="accom-card">
+        <img src="./images/32.jpg" alt="Hotels" class="accom-img">
+        <div class="accom-body">
+          <h3>Hotels &amp; B&amp;Bs</h3>
+          <p class="accom-price">From $XXX / night</p>
+          <div class="accom-tags"><span class="accom-tag">Breakfast</span><span class="accom-tag">Central</span><span class="accom-tag">Mid-range</span></div>
+          <p>Taniti's premier beachfront resort sits right on a white sand bay. Enjoy ocean-view rooms, a full-service spa, two restaurants, and direct access to some of the island's clearest snorkelling waters.</p>
+          <a href="hotels-bnbs.html" class="btn">View Hotels</a>
+          <p class="click-hint">↗ Click to explore</p>
+        </div>
+      </div>
+      <div class="accom-card">
+        <img src="./images/33.jpg" alt="Hostel" class="accom-img">
+        <div class="accom-body">
+          <h3>Hostel</h3>
+          <p class="accom-price">From $XX / night</p>
+          <div class="accom-tags"><span class="accom-tag">Dorm Beds</span><span class="accom-tag">Social</span><span class="accom-tag">Budget</span></div>
+          <p>Taniti's hostel is a favourite among solo travellers and backpackers. With a lively common area, shared kitchen, and organised social events, it is the best place on the island to meet fellow adventurers.</p>
+          <a href="hostel.html" class="btn">View Hostel</a>
+          <p class="click-hint">↗ Click to explore</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section page-section-alt">
+  <div class="section-center">
+    <div class="section-title"><h2>Compare <span>Options</span></h2></div>
+    <table class="compare-table">
+      <thead><tr><th>Feature</th><th>Resort</th><th>Hotels &amp; B&amp;Bs</th><th>Hostel</th></tr></thead>
+      <tbody>
+        <tr><td>Price Range</td><td>$$$–$$$$</td><td>$$–$$$</td><td>$–$$</td></tr>
+        <tr><td>Pool / Spa</td><td>✓</td><td>Some</td><td>✗</td></tr>
+        <tr><td>Private Room</td><td>✓</td><td>✓</td><td>Optional</td></tr>
+        <tr><td>Breakfast Included</td><td>✓</td><td>Some</td><td>✗</td></tr>
+        <tr><td>Best For</td><td>Luxury stays</td><td>Couples / Families</td><td>Solo / Budget</td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+
+<section class="contact section">
+  <div class="section-center contact-center">
+    <div class="contact-title">
+      <h3 class="contact-title">Want The Latest Tour Info And Updates?</h3>
+      <p>Sign up for the newsletter and stay up to date</p>
+    </div>
+    <form class="contact-form">
+      <input type="email" class="form-control" placeholder="Your Email">
+      <input type="submit" value="Submit" class="btn-submit">
+    </form>
+  </div>
+</section>
+
+
+<footer class="footer">
+  <ul class="footer-links"><li><a href="index.html" class="footer-link">Home</a></li><li><a href="stay.html" class="footer-link">Stay</a></li><li><a href="plan.html" class="footer-link">Plan</a></li><li><a href="dining.html" class="footer-link">Dining</a></li><li><a href="book-now.html" class="footer-link">Book Now</a></li><li><a href="about-us.html" class="footer-link">About Us</a></li></ul>
+  <div class="footer-icons">
+    <a href="#" class="footer-icon" title="Facebook">f</a>
+    <a href="#" class="footer-icon" title="Instagram">&#9825;</a>
+    <a href="#" class="footer-icon" title="Twitter">t</a>
+    <a href="#" class="footer-icon" title="YouTube">&#9654;</a>
+    <a href="#" class="footer-icon" title="Pinterest">p</a>
+  </div>
+  <p class="copyright">Copyright &copy; 2026 FakeRoads Tour Company. All Rights Reserved.</p>
+</footer>
+<script>
+
+const toggle = document.querySelector('.nav-toggle');
+const links  = document.querySelector('.nav-links');
+if(toggle){ toggle.addEventListener('click',()=>{ links.classList.toggle('show-links'); }); }
+
+</script>
+</body>
+</html>

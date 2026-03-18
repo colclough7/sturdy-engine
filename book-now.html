@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Book Now — FakeRoads Tours</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+<nav class="navbar">
+  <div class="nav-center">
+    <div class="nav-header">
+      <a href="index.html" class="nav-logo">FakeRoads Tours</a>
+      <button class="nav-toggle" id="nav-toggle"><i>&#9776;</i></button>
+    </div>
+    <ul class="nav-links" id="nav-links"><li><a href="index.html" class="nav-link">Home</a></li>
+<li><a href="stay.html" class="nav-link">Stay</a></li>
+<li><a href="plan.html" class="nav-link">Plan</a></li>
+<li><a href="dining.html" class="nav-link">Dining</a></li>
+<li><a href="book-now.html" class="nav-link" style="color:var(--clr-primary-8);font-weight:700;">Book Now</a></li>
+<li><a href="about-us.html" class="nav-link">About Us</a></li>
+</ul>
+    <div class="nav-icons">
+      <a href="#" class="nav-icon" title="Facebook">f</a>
+      <a href="#" class="nav-icon" title="Instagram">&#9825;</a>
+      <a href="#" class="nav-icon" title="Twitter">t</a>
+    </div>
+  </div>
+</nav>
+
+
+<header class="page-hero">
+  <div class="page-hero-banner">
+    <h1>Book Now</h1>
+    <p>Plan, book and confirm everything in one place.</p>
+  </div>
+</header>
+<div class="breadcrumb"><div class="section-center"><a href="index.html">Home</a><span style="color:#aaa;"> › </span><span>Book Now</span></div></div>
+
+<section class="section">
+  <div class="section-center">
+    <div class="booking-strip">
+      <h3>Start With Your Dates</h3>
+      <div class="booking-fields">
+        <div class="booking-field"><label>Check-in</label><input type="text" placeholder="DD / MM / YYYY"></div>
+        <div class="booking-field"><label>Check-out</label><input type="text" placeholder="DD / MM / YYYY"></div>
+        <div class="booking-field"><label>Adults</label><input type="text" placeholder="Adults"></div>
+        <div class="booking-field"><label>Children</label><input type="text" placeholder="Children"></div>
+      </div>
+    </div>
+    <div class="section-title"><h2>What Would You Like To <span>Book?</span></h2></div>
+    <div class="accom-grid">
+      <div class="accom-card">
+        <img src="./images/61.jpg" alt="Lodging" class="accom-img">
+        <div class="accom-body">
+          <h3>Book Lodging</h3>
+          <p>Reserve your resort, hotel, B&amp;B or hostel.</p>
+          <a href="book-lodging.html" class="btn">Book Lodging →</a>
+          <p class="click-hint">↗ Click to book</p>
+        </div>
+      </div>
+      <div class="accom-card">
+        <img src="./images/62.jpg" alt="Activities" class="accom-img">
+        <div class="accom-body">
+          <h3>Book Activities</h3>
+          <p>Tours, excursions and experiences.</p>
+          <a href="book-activities.html" class="btn">Book Activities →</a>
+          <p class="click-hint">↗ Click to book</p>
+        </div>
+      </div>
+      <div class="accom-card">
+        <img src="./images/63.jpg" alt="Dining" class="accom-img">
+        <div class="accom-body">
+          <h3>Reserve Dining</h3>
+          <p>A table at local and Pan-Asian restaurants.</p>
+          <a href="dining.html" class="btn">Reserve a Table →</a>
+          <p class="click-hint">↗ Click to book</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="contact section">
+  <div class="section-center contact-center">
+    <div class="contact-title">
+      <h3 class="contact-title">Want The Latest Tour Info And Updates?</h3>
+      <p>Sign up for the newsletter and stay up to date</p>
+    </div>
+    <form class="contact-form">
+      <input type="email" class="form-control" placeholder="Your Email">
+      <input type="submit" value="Submit" class="btn-submit">
+    </form>
+  </div>
+</section>
+
+
+<footer class="footer">
+  <ul class="footer-links"><li><a href="index.html" class="footer-link">Home</a></li><li><a href="stay.html" class="footer-link">Stay</a></li><li><a href="plan.html" class="footer-link">Plan</a></li><li><a href="dining.html" class="footer-link">Dining</a></li><li><a href="book-now.html" class="footer-link">Book Now</a></li><li><a href="about-us.html" class="footer-link">About Us</a></li></ul>
+  <div class="footer-icons">
+    <a href="#" class="footer-icon" title="Facebook">f</a>
+    <a href="#" class="footer-icon" title="Instagram">&#9825;</a>
+    <a href="#" class="footer-icon" title="Twitter">t</a>
+    <a href="#" class="footer-icon" title="YouTube">&#9654;</a>
+    <a href="#" class="footer-icon" title="Pinterest">p</a>
+  </div>
+  <p class="copyright">Copyright &copy; 2026 FakeRoads Tour Company. All Rights Reserved.</p>
+</footer>
+<script>
+
+const toggle = document.querySelector('.nav-toggle');
+const links  = document.querySelector('.nav-links');
+if(toggle){ toggle.addEventListener('click',()=>{ links.classList.toggle('show-links'); }); }
+
+</script>
+</body>
+</html>

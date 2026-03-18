@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Book Lodging — FakeRoads Tours Taniti</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+<nav class="navbar">
+  <div class="nav-center">
+    <div class="nav-header">
+      <a href="index.html" class="nav-logo">FakeRoads Tours</a>
+      <button class="nav-toggle" id="nav-toggle"><i>&#9776;</i></button>
+    </div>
+    <ul class="nav-links" id="nav-links"><li><a href="index.html" class="nav-link">Home</a></li>
+<li><a href="stay.html" class="nav-link">Stay</a></li>
+<li><a href="plan.html" class="nav-link">Plan</a></li>
+<li><a href="dining.html" class="nav-link">Dining</a></li>
+<li><a href="book-now.html" class="nav-link" style="color:var(--clr-primary-8);font-weight:700;">Book Now</a></li>
+<li><a href="about-us.html" class="nav-link">About Us</a></li>
+</ul>
+    <div class="nav-icons">
+      <a href="#" class="nav-icon" title="Facebook">f</a>
+      <a href="#" class="nav-icon" title="Instagram">&#9825;</a>
+      <a href="#" class="nav-icon" title="Twitter">t</a>
+    </div>
+  </div>
+</nav>
+
+
+<header class="page-hero">
+  <div class="page-hero-banner">
+    <h1>Book Your Taniti Lodging</h1>
+    <p>Search availability across all of Taniti's accommodation and reserve your perfect spot in minutes.</p>
+  </div>
+</header>
+<div class="breadcrumb"><div class="section-center"><a href="index.html">Home</a><span style="color:#aaa;"> › </span><a href="book-now.html">Book Now</a><span style="color:#aaa;"> › </span><span>Book Lodging</span></div></div>
+
+<section class="section">
+  <div class="section-center">
+    <div style="display:flex;flex-wrap:wrap;gap:3rem;">
+      <div style="flex:0 0 340px;">
+        <div class="booking-strip">
+          <h3>Search Availability</h3>
+          <div class="form-group"><label>Check-in Date</label><input type="text" placeholder="DD / MM / YYYY"></div>
+          <div class="form-group"><label>Check-out Date</label><input type="text" placeholder="DD / MM / YYYY"></div>
+          <div class="form-row">
+            <div class="form-group"><label>Adults</label><input type="text" placeholder="Adults"></div>
+            <div class="form-group"><label>Children</label><input type="text" placeholder="Children"></div>
+          </div>
+          <div class="form-group"><label>Price Range</label><input type="text" placeholder="$35 – $350 per night"></div>
+          <div class="form-group"><label>Accommodation Type</label><select><option>All Types</option><option>Resort</option><option>Hotel</option><option>B&B</option><option>Hostel</option></select></div>
+          <a href="#" class="btn" style="width:100%;text-align:center;display:block;">Search</a>
+        </div>
+      </div>
+      <div style="flex:1 1 300px;">
+        <div class="section-title" style="text-align:left;"><h2>Available <span>Properties</span></h2></div>
+        <div class="accom-card" style="margin-bottom:1.5rem;">
+          <img src="./images/110.jpg" alt="Taniti Beach Resort" class="accom-img">
+          <div class="accom-body">
+            <h3>Taniti Beach Resort</h3>
+            <div class="stars">★★★★★</div>
+            <div class="accom-tags"><span class="accom-tag">Luxury</span><span class="accom-tag">Pool</span><span class="accom-tag">Spa</span><span class="accom-tag">Beach Access</span></div>
+            <p>Taniti's only full-service beachfront resort. Ocean-view rooms, the Coral Table restaurant, a full spa, and direct access to the island's best snorkelling bay.</p>
+            <p class="accom-price">From $250 / night</p>
+            <a href="resort.html" class="btn">Select &amp; Book</a>
+          </div>
+        </div>
+        <div class="accom-card" style="margin-bottom:1.5rem;">
+          <img src="./images/111.jpg" alt="Taniti City Hotel" class="accom-img">
+          <div class="accom-body">
+            <h3>Taniti City Hotel</h3>
+            <div class="stars">★★★★☆</div>
+            <div class="accom-tags"><span class="accom-tag">Mid-range</span><span class="accom-tag">Central</span><span class="accom-tag">Breakfast</span></div>
+            <p>A comfortable, centrally located hotel in the heart of Taniti City. Walking distance to restaurants, shops, the marina, and public transport links across the island.</p>
+            <p class="accom-price">From $95 / night</p>
+            <a href="hotels-bnbs.html" class="btn">Select &amp; Book</a>
+          </div>
+        </div>
+        <div class="accom-card" style="margin-bottom:1.5rem;">
+          <img src="./images/112.jpg" alt="Taniti Island Hostel" class="accom-img">
+          <div class="accom-body">
+            <h3>Taniti Island Hostel</h3>
+            <div class="stars">★★★★☆</div>
+            <div class="accom-tags"><span class="accom-tag">Budget</span><span class="accom-tag">Social</span><span class="accom-tag">Dorm &amp; Private</span></div>
+            <p>The island's most sociable stay. Dorm beds and private rooms available, with a communal kitchen, common room, and a packed noticeboard of island activities and events.</p>
+            <p class="accom-price">From $35 / night</p>
+            <a href="hostel.html" class="btn">Select &amp; Book</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="contact section">
+  <div class="section-center contact-center">
+    <div class="contact-title">
+      <h3 class="contact-title">Want The Latest Taniti Tour Info And Updates?</h3>
+      <p>Sign up for our newsletter and be the first to hear about new tours, seasonal deals, and island events.</p>
+    </div>
+    <form class="contact-form">
+      <input type="email" class="form-control" placeholder="Your Email">
+      <input type="submit" value="Submit" class="btn-submit">
+    </form>
+  </div>
+</section>
+
+
+<footer class="footer">
+  <ul class="footer-links"><li><a href="index.html" class="footer-link">Home</a></li><li><a href="stay.html" class="footer-link">Stay</a></li><li><a href="plan.html" class="footer-link">Plan</a></li><li><a href="dining.html" class="footer-link">Dining</a></li><li><a href="book-now.html" class="footer-link">Book Now</a></li><li><a href="about-us.html" class="footer-link">About Us</a></li></ul>
+  <div class="footer-icons">
+    <a href="#" class="footer-icon" title="Facebook">f</a>
+    <a href="#" class="footer-icon" title="Instagram">&#9825;</a>
+    <a href="#" class="footer-icon" title="Twitter">t</a>
+    <a href="#" class="footer-icon" title="YouTube">&#9654;</a>
+    <a href="#" class="footer-icon" title="Pinterest">p</a>
+  </div>
+  <p class="copyright">Copyright &copy; 2026 FakeRoads Tour Company. All Rights Reserved.</p>
+</footer>
+<script>
+
+const toggle = document.querySelector('.nav-toggle');
+const links  = document.querySelector('.nav-links');
+if(toggle){ toggle.addEventListener('click',()=>{ links.classList.toggle('show-links'); }); }
+
+</script>
+</body>
+</html>
